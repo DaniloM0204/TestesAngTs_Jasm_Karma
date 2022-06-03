@@ -5,9 +5,7 @@ import { UniqueIdService } from '../../services/unique-id/unique-id.service';
 import { LikeWidgetComponent } from './like-widget.component';
 
 @NgModule({
-  declarations: [
-    LikeWidgetComponent
-  ],
+  declarations: [LikeWidgetComponent],
   imports: [
     CommonModule,
     FontAwesomeModule
@@ -15,5 +13,4 @@ import { LikeWidgetComponent } from './like-widget.component';
   exports: [LikeWidgetComponent],
   providers: [UniqueIdService]
 })
-
 export class LikeWidgetModule {}
